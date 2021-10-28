@@ -1,0 +1,3848 @@
+{
+  "org/json/simple/JSONArray": {
+    "name": "org/json/simple/JSONArray",
+    "interfaces": [
+      "java/util/List",
+      "org/json/simple/JSONAware",
+      "org/json/simple/JSONStreamAware"
+    ]
+  },
+  "org/json/simple/JSONObject": {
+    "name": "org/json/simple/JSONObject",
+    "interfaces": [
+      "java/util/Map",
+      "org/json/simple/JSONAware",
+      "org/json/simple/JSONStreamAware"
+    ]
+  },
+  "org/spongepowered/asm/bridge/RemapperAdapter": {
+    "name": "org/spongepowered/asm/bridge/RemapperAdapter",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/extensibility/IRemapper",
+      "org/spongepowered/asm/util/ObfuscationUtil$IClassRemapper"
+    ]
+  },
+  "org/spongepowered/asm/launch/MixinTweaker": {
+    "name": "org/spongepowered/asm/launch/MixinTweaker",
+    "interfaces": [
+      "net/minecraft/launchwrapper/ITweaker"
+    ]
+  },
+  "org/spongepowered/asm/launch/platform/MixinPlatformAgentAbstract": {
+    "name": "org/spongepowered/asm/launch/platform/MixinPlatformAgentAbstract",
+    "interfaces": [
+      "org/spongepowered/asm/launch/platform/IMixinPlatformAgent"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/InsnList$InsnListIterator": {
+    "name": "org/spongepowered/asm/lib/tree/InsnList$InsnListIterator",
+    "interfaces": [
+      "java/util/ListIterator"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/analysis/Analyzer": {
+    "name": "org/spongepowered/asm/lib/tree/analysis/Analyzer",
+    "interfaces": [
+      "org/spongepowered/asm/lib/Opcodes"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/analysis/BasicInterpreter": {
+    "name": "org/spongepowered/asm/lib/tree/analysis/BasicInterpreter",
+    "interfaces": [
+      "org/spongepowered/asm/lib/Opcodes"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/analysis/BasicValue": {
+    "name": "org/spongepowered/asm/lib/tree/analysis/BasicValue",
+    "interfaces": [
+      "org/spongepowered/asm/lib/tree/analysis/Value"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/analysis/SmallSet": {
+    "name": "org/spongepowered/asm/lib/tree/analysis/SmallSet",
+    "interfaces": [
+      "java/util/Iterator"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/analysis/SourceInterpreter": {
+    "name": "org/spongepowered/asm/lib/tree/analysis/SourceInterpreter",
+    "interfaces": [
+      "org/spongepowered/asm/lib/Opcodes"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/analysis/SourceValue": {
+    "name": "org/spongepowered/asm/lib/tree/analysis/SourceValue",
+    "interfaces": [
+      "org/spongepowered/asm/lib/tree/analysis/Value"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Debug": {
+    "name": "org/spongepowered/asm/mixin/Debug",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Dynamic": {
+    "name": "org/spongepowered/asm/mixin/Dynamic",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/EnvironmentStateTweaker": {
+    "name": "org/spongepowered/asm/mixin/EnvironmentStateTweaker",
+    "interfaces": [
+      "net/minecraft/launchwrapper/ITweaker"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Final": {
+    "name": "org/spongepowered/asm/mixin/Final",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Implements": {
+    "name": "org/spongepowered/asm/mixin/Implements",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Interface": {
+    "name": "org/spongepowered/asm/mixin/Interface",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Intrinsic": {
+    "name": "org/spongepowered/asm/mixin/Intrinsic",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Mixin": {
+    "name": "org/spongepowered/asm/mixin/Mixin",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/MixinEnvironment": {
+    "name": "org/spongepowered/asm/mixin/MixinEnvironment",
+    "interfaces": [
+      "org/spongepowered/asm/util/ITokenProvider"
+    ]
+  },
+  "org/spongepowered/asm/mixin/MixinEnvironment$TokenProviderWrapper": {
+    "name": "org/spongepowered/asm/mixin/MixinEnvironment$TokenProviderWrapper",
+    "interfaces": [
+      "java/lang/Comparable"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Mutable": {
+    "name": "org/spongepowered/asm/mixin/Mutable",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Overwrite": {
+    "name": "org/spongepowered/asm/mixin/Overwrite",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Pseudo": {
+    "name": "org/spongepowered/asm/mixin/Pseudo",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Shadow": {
+    "name": "org/spongepowered/asm/mixin/Shadow",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/SoftOverride": {
+    "name": "org/spongepowered/asm/mixin/SoftOverride",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Unique": {
+    "name": "org/spongepowered/asm/mixin/Unique",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/gen/Accessor": {
+    "name": "org/spongepowered/asm/mixin/gen/Accessor",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/gen/Invoker": {
+    "name": "org/spongepowered/asm/mixin/gen/Invoker",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/At": {
+    "name": "org/spongepowered/asm/mixin/injection/At",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Coerce": {
+    "name": "org/spongepowered/asm/mixin/injection/Coerce",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Constant": {
+    "name": "org/spongepowered/asm/mixin/injection/Constant",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Group": {
+    "name": "org/spongepowered/asm/mixin/injection/Group",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Inject": {
+    "name": "org/spongepowered/asm/mixin/injection/Inject",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/InjectionPoint$AtCode": {
+    "name": "org/spongepowered/asm/mixin/injection/InjectionPoint$AtCode",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/ModifyArg": {
+    "name": "org/spongepowered/asm/mixin/injection/ModifyArg",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/ModifyArgs": {
+    "name": "org/spongepowered/asm/mixin/injection/ModifyArgs",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/ModifyConstant": {
+    "name": "org/spongepowered/asm/mixin/injection/ModifyConstant",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/ModifyVariable": {
+    "name": "org/spongepowered/asm/mixin/injection/ModifyVariable",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Redirect": {
+    "name": "org/spongepowered/asm/mixin/injection/Redirect",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Slice": {
+    "name": "org/spongepowered/asm/mixin/injection/Slice",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Surrogate": {
+    "name": "org/spongepowered/asm/mixin/injection/Surrogate",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/callback/CallbackInfo": {
+    "name": "org/spongepowered/asm/mixin/injection/callback/CallbackInfo",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/injection/callback/Cancellable"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/code/ISliceContext": {
+    "name": "org/spongepowered/asm/mixin/injection/code/ISliceContext",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/injection/IInjectionPointContext"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/code/MethodSlice$InsnListSlice$SliceIterator": {
+    "name": "org/spongepowered/asm/mixin/injection/code/MethodSlice$InsnListSlice$SliceIterator",
+    "interfaces": [
+      "java/util/ListIterator"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/invoke/arg/ArgsClassGenerator": {
+    "name": "org/spongepowered/asm/mixin/injection/invoke/arg/ArgsClassGenerator",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IClassGenerator"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/modify/AfterStoreLocal": {
+    "name": "org/spongepowered/asm/mixin/injection/modify/AfterStoreLocal",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/modify/AfterStoreLocal",
+        "value": {
+          "value": "STORE"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/modify/BeforeLoadLocal": {
+    "name": "org/spongepowered/asm/mixin/injection/modify/BeforeLoadLocal",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/modify/BeforeLoadLocal",
+        "value": {
+          "value": "LOAD"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/modify/LocalVariableDiscriminator$Context": {
+    "name": "org/spongepowered/asm/mixin/injection/modify/LocalVariableDiscriminator$Context",
+    "interfaces": [
+      "org/spongepowered/asm/util/PrettyPrinter$IPrettyPrintable"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/AfterInvoke": {
+    "name": "org/spongepowered/asm/mixin/injection/points/AfterInvoke",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/AfterInvoke",
+        "value": {
+          "value": "INVOKE_ASSIGN"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeConstant": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeConstant",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeConstant",
+        "value": {
+          "value": "CONSTANT"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeFieldAccess": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeFieldAccess",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeFieldAccess",
+        "value": {
+          "value": "FIELD"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeFinalReturn": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeFinalReturn",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeFinalReturn",
+        "value": {
+          "value": "TAIL"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeInvoke": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeInvoke",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeInvoke",
+        "value": {
+          "value": "INVOKE"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeNew": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeNew",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeNew",
+        "value": {
+          "value": "NEW"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeReturn": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeReturn",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeReturn",
+        "value": {
+          "value": "RETURN"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeStringInvoke": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeStringInvoke",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeStringInvoke",
+        "value": {
+          "value": "INVOKE_STRING"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/JumpInsnPoint": {
+    "name": "org/spongepowered/asm/mixin/injection/points/JumpInsnPoint",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/JumpInsnPoint",
+        "value": {
+          "value": "JUMP"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/MethodHead": {
+    "name": "org/spongepowered/asm/mixin/injection/points/MethodHead",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/MethodHead",
+        "value": {
+          "value": "HEAD"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/struct/InjectionInfo": {
+    "name": "org/spongepowered/asm/mixin/injection/struct/InjectionInfo",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/injection/code/ISliceContext"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/struct/InjectionNodes$InjectionNode": {
+    "name": "org/spongepowered/asm/mixin/injection/struct/InjectionNodes$InjectionNode",
+    "interfaces": [
+      "java/lang/Comparable"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/struct/Target": {
+    "name": "org/spongepowered/asm/mixin/injection/struct/Target",
+    "interfaces": [
+      "java/lang/Comparable",
+      "java/lang/Iterable"
+    ]
+  },
+  "org/spongepowered/asm/mixin/refmap/ReferenceMapper": {
+    "name": "org/spongepowered/asm/mixin/refmap/ReferenceMapper",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/refmap/IReferenceMapper",
+      "java/io/Serializable"
+    ]
+  },
+  "org/spongepowered/asm/mixin/refmap/RemappingReferenceMapper": {
+    "name": "org/spongepowered/asm/mixin/refmap/RemappingReferenceMapper",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/refmap/IReferenceMapper"
+    ]
+  },
+  "org/spongepowered/asm/mixin/refmap/RemappingReferenceMapper$1": {
+    "name": "org/spongepowered/asm/mixin/refmap/RemappingReferenceMapper$1",
+    "interfaces": [
+      "com/google/common/io/LineProcessor"
+    ]
+  },
+  "org/spongepowered/asm/mixin/struct/SpecialMethodInfo": {
+    "name": "org/spongepowered/asm/mixin/struct/SpecialMethodInfo",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/injection/IInjectionPointContext"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/InnerClassGenerator": {
+    "name": "org/spongepowered/asm/mixin/transformer/InnerClassGenerator",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IClassGenerator"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinConfig": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinConfig",
+    "interfaces": [
+      "java/lang/Comparable",
+      "org/spongepowered/asm/mixin/extensibility/IMixinConfig"
+    ],
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "selector",
+        "value": {
+          "value": "target"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "version",
+        "value": {
+          "value": "minVersion"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "compatibility",
+        "value": {
+          "value": "compatibilityLevel"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "required",
+        "value": {
+          "value": "required"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "priority",
+        "value": {
+          "value": "priority"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mixinPriority",
+        "value": {
+          "value": "mixinPriority"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mixinPackage",
+        "value": {
+          "value": "package"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mixinClasses",
+        "value": {
+          "value": "mixins"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mixinClassesClient",
+        "value": {
+          "value": "client"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mixinClassesServer",
+        "value": {
+          "value": "server"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "setSourceFile",
+        "value": {
+          "value": "setSourceFile"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "refMapperConfig",
+        "value": {
+          "value": "refmap"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "verboseLogging",
+        "value": {
+          "value": "verbose"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "pluginClassName",
+        "value": {
+          "value": "plugin"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "injectorOptions",
+        "value": {
+          "value": "injectors"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "overwriteOptions",
+        "value": {
+          "value": "overwrites"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinConfig$InjectorOptions": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinConfig$InjectorOptions",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "defaultRequireValue",
+        "value": {
+          "value": "defaultRequire"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "defaultGroup",
+        "value": {
+          "value": "defaultGroup"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "injectionPoints",
+        "value": {
+          "value": "injectionPoints"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "maxShiftBy",
+        "value": {
+          "value": "maxShiftBy"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinConfig$OverwriteOptions": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinConfig$OverwriteOptions",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "conformAccessModifiers",
+        "value": {
+          "value": "conformVisibility"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "requireOverwriteAnnotations",
+        "value": {
+          "value": "requireAnnotations"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinInfo": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinInfo",
+    "interfaces": [
+      "java/lang/Comparable",
+      "org/spongepowered/asm/mixin/extensibility/IMixinInfo"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinInfo$1": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinInfo$1",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinInfo$2": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinInfo$2",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinPostProcessor": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinPostProcessor",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/MixinConfig$IListener"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinTargetContext": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinTargetContext",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/refmap/IMixinContext"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinTransformer$1": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinTransformer$1",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/MixinConfig$IListener"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/Proxy": {
+    "name": "org/spongepowered/asm/mixin/transformer/Proxy",
+    "interfaces": [
+      "net/minecraft/launchwrapper/IClassTransformer",
+      "org/spongepowered/asm/service/ILegacyClassTransformer"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/TargetClassContext": {
+    "name": "org/spongepowered/asm/mixin/transformer/TargetClassContext",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/ITargetClassContext"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/debug/RuntimeDecompiler": {
+    "name": "org/spongepowered/asm/mixin/transformer/debug/RuntimeDecompiler",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IDecompiler",
+      "org/jetbrains/java/decompiler/main/extern/IResultSaver"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/debug/RuntimeDecompiler$1": {
+    "name": "org/spongepowered/asm/mixin/transformer/debug/RuntimeDecompiler$1",
+    "interfaces": [
+      "org/jetbrains/java/decompiler/main/extern/IBytecodeProvider"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/debug/RuntimeDecompilerAsync": {
+    "name": "org/spongepowered/asm/mixin/transformer/debug/RuntimeDecompilerAsync",
+    "interfaces": [
+      "java/lang/Runnable",
+      "java/lang/Thread$UncaughtExceptionHandler"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionCheckClass": {
+    "name": "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionCheckClass",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IExtension"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionCheckInterfaces": {
+    "name": "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionCheckInterfaces",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IExtension"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionClassExporter": {
+    "name": "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionClassExporter",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IExtension"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/meta/MixinInner": {
+    "name": "org/spongepowered/asm/mixin/transformer/meta/MixinInner",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/meta/MixinMerged": {
+    "name": "org/spongepowered/asm/mixin/transformer/meta/MixinMerged",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/meta/MixinRenamed": {
+    "name": "org/spongepowered/asm/mixin/transformer/meta/MixinRenamed",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/obfuscation/RemapperChain": {
+    "name": "org/spongepowered/asm/obfuscation/RemapperChain",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/extensibility/IRemapper"
+    ]
+  },
+  "org/spongepowered/asm/obfuscation/mapping/common/MappingField": {
+    "name": "org/spongepowered/asm/obfuscation/mapping/common/MappingField",
+    "interfaces": [
+      "org/spongepowered/asm/obfuscation/mapping/IMapping"
+    ]
+  },
+  "org/spongepowered/asm/obfuscation/mapping/common/MappingMethod": {
+    "name": "org/spongepowered/asm/obfuscation/mapping/common/MappingMethod",
+    "interfaces": [
+      "org/spongepowered/asm/obfuscation/mapping/IMapping"
+    ]
+  },
+  "org/spongepowered/asm/service/ILegacyClassTransformer": {
+    "name": "org/spongepowered/asm/service/ILegacyClassTransformer",
+    "interfaces": [
+      "org/spongepowered/asm/service/ITransformer"
+    ]
+  },
+  "org/spongepowered/asm/service/mojang/Blackboard": {
+    "name": "org/spongepowered/asm/service/mojang/Blackboard",
+    "interfaces": [
+      "org/spongepowered/asm/service/IGlobalPropertyService"
+    ]
+  },
+  "org/spongepowered/asm/service/mojang/LegacyTransformerHandle": {
+    "name": "org/spongepowered/asm/service/mojang/LegacyTransformerHandle",
+    "interfaces": [
+      "org/spongepowered/asm/service/ILegacyClassTransformer"
+    ]
+  },
+  "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapper": {
+    "name": "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapper",
+    "interfaces": [
+      "org/spongepowered/asm/service/IMixinService",
+      "org/spongepowered/asm/service/IClassProvider",
+      "org/spongepowered/asm/service/IClassBytecodeProvider"
+    ]
+  },
+  "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapperBootstrap": {
+    "name": "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapperBootstrap",
+    "interfaces": [
+      "org/spongepowered/asm/service/IMixinServiceBootstrap"
+    ]
+  },
+  "org/spongepowered/asm/transformers/TreeTransformer": {
+    "name": "org/spongepowered/asm/transformers/TreeTransformer",
+    "interfaces": [
+      "org/spongepowered/asm/service/ILegacyClassTransformer"
+    ]
+  },
+  "org/spongepowered/asm/util/Annotations$1": {
+    "name": "org/spongepowered/asm/util/Annotations$1",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ]
+  },
+  "org/spongepowered/asm/util/ClassSignature$Token": {
+    "name": "org/spongepowered/asm/util/ClassSignature$Token",
+    "interfaces": [
+      "org/spongepowered/asm/util/ClassSignature$IToken"
+    ]
+  },
+  "org/spongepowered/asm/util/ClassSignature$TokenHandle": {
+    "name": "org/spongepowered/asm/util/ClassSignature$TokenHandle",
+    "interfaces": [
+      "org/spongepowered/asm/util/ClassSignature$IToken"
+    ]
+  },
+  "org/spongepowered/asm/util/ClassSignature$TypeVar": {
+    "name": "org/spongepowered/asm/util/ClassSignature$TypeVar",
+    "interfaces": [
+      "java/lang/Comparable"
+    ]
+  },
+  "org/spongepowered/asm/util/PrettyPrinter$HorizontalRule": {
+    "name": "org/spongepowered/asm/util/PrettyPrinter$HorizontalRule",
+    "interfaces": [
+      "org/spongepowered/asm/util/PrettyPrinter$ISpecialEntry"
+    ]
+  },
+  "org/spongepowered/asm/util/PrettyPrinter$KeyValue": {
+    "name": "org/spongepowered/asm/util/PrettyPrinter$KeyValue",
+    "interfaces": [
+      "org/spongepowered/asm/util/PrettyPrinter$IVariableWidthEntry"
+    ]
+  },
+  "org/spongepowered/asm/util/PrettyPrinter$Row": {
+    "name": "org/spongepowered/asm/util/PrettyPrinter$Row",
+    "interfaces": [
+      "org/spongepowered/asm/util/PrettyPrinter$IVariableWidthEntry"
+    ]
+  },
+  "org/spongepowered/asm/util/PrettyPrinter$Table": {
+    "name": "org/spongepowered/asm/util/PrettyPrinter$Table",
+    "interfaces": [
+      "org/spongepowered/asm/util/PrettyPrinter$IVariableWidthEntry"
+    ]
+  },
+  "org/spongepowered/asm/util/VersionNumber": {
+    "name": "org/spongepowered/asm/util/VersionNumber",
+    "interfaces": [
+      "java/lang/Comparable",
+      "java/io/Serializable"
+    ]
+  },
+  "org/spongepowered/tools/agent/MixinAgent": {
+    "name": "org/spongepowered/tools/agent/MixinAgent",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IHotSwap"
+    ]
+  },
+  "org/spongepowered/tools/agent/MixinAgent$Transformer": {
+    "name": "org/spongepowered/tools/agent/MixinAgent$Transformer",
+    "interfaces": [
+      "java/lang/instrument/ClassFileTransformer"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/AnnotatedMixinElementHandlerAccessor": {
+    "name": "org/spongepowered/tools/obfuscation/AnnotatedMixinElementHandlerAccessor",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/refmap/IMixinContext"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/AnnotatedMixins": {
+    "name": "org/spongepowered/tools/obfuscation/AnnotatedMixins",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/interfaces/IMixinAnnotationProcessor",
+      "org/spongepowered/asm/util/ITokenProvider",
+      "org/spongepowered/tools/obfuscation/interfaces/ITypeHandleProvider",
+      "org/spongepowered/tools/obfuscation/interfaces/IJavadocProvider"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/Mappings": {
+    "name": "org/spongepowered/tools/obfuscation/Mappings",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/mapping/IMappingConsumer"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/Mappings$UniqueMappings": {
+    "name": "org/spongepowered/tools/obfuscation/Mappings$UniqueMappings",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/mapping/IMappingConsumer"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/MixinValidator": {
+    "name": "org/spongepowered/tools/obfuscation/MixinValidator",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/interfaces/IMixinValidator"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/ObfuscationData": {
+    "name": "org/spongepowered/tools/obfuscation/ObfuscationData",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/ObfuscationDataProvider": {
+    "name": "org/spongepowered/tools/obfuscation/ObfuscationDataProvider",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/interfaces/IObfuscationDataProvider"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/ObfuscationEnvironment": {
+    "name": "org/spongepowered/tools/obfuscation/ObfuscationEnvironment",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/interfaces/IObfuscationEnvironment"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/ObfuscationEnvironment$RemapperProxy": {
+    "name": "org/spongepowered/tools/obfuscation/ObfuscationEnvironment$RemapperProxy",
+    "interfaces": [
+      "org/spongepowered/asm/util/ObfuscationUtil$IClassRemapper"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/ObfuscationManager": {
+    "name": "org/spongepowered/tools/obfuscation/ObfuscationManager",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/interfaces/IObfuscationManager"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/ReferenceManager": {
+    "name": "org/spongepowered/tools/obfuscation/ReferenceManager",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/interfaces/IReferenceManager"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/interfaces/IMixinAnnotationProcessor": {
+    "name": "org/spongepowered/tools/obfuscation/interfaces/IMixinAnnotationProcessor",
+    "interfaces": [
+      "javax/annotation/processing/Messager",
+      "org/spongepowered/tools/obfuscation/interfaces/IOptionProvider"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/mapping/common/MappingProvider": {
+    "name": "org/spongepowered/tools/obfuscation/mapping/common/MappingProvider",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/mapping/IMappingProvider"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/mapping/common/MappingWriter": {
+    "name": "org/spongepowered/tools/obfuscation/mapping/common/MappingWriter",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/mapping/IMappingWriter"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/mapping/mcp/MappingProviderSrg$1": {
+    "name": "org/spongepowered/tools/obfuscation/mapping/mcp/MappingProviderSrg$1",
+    "interfaces": [
+      "com/google/common/io/LineProcessor"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/mcp/ObfuscationServiceMCP": {
+    "name": "org/spongepowered/tools/obfuscation/mcp/ObfuscationServiceMCP",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/service/IObfuscationService"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/mirror/TypeReference": {
+    "name": "org/spongepowered/tools/obfuscation/mirror/TypeReference",
+    "interfaces": [
+      "java/io/Serializable",
+      "java/lang/Comparable"
+    ]
+  },
+  "org/yaml/snakeyaml/Yaml$1": {
+    "name": "org/yaml/snakeyaml/Yaml$1",
+    "interfaces": [
+      "java/util/Iterator"
+    ]
+  },
+  "org/yaml/snakeyaml/Yaml$2": {
+    "name": "org/yaml/snakeyaml/Yaml$2",
+    "interfaces": [
+      "java/util/Iterator"
+    ]
+  },
+  "org/yaml/snakeyaml/Yaml$3": {
+    "name": "org/yaml/snakeyaml/Yaml$3",
+    "interfaces": [
+      "java/util/Iterator"
+    ]
+  },
+  "org/yaml/snakeyaml/Yaml$EventIterable": {
+    "name": "org/yaml/snakeyaml/Yaml$EventIterable",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "org/yaml/snakeyaml/Yaml$NodeIterable": {
+    "name": "org/yaml/snakeyaml/Yaml$NodeIterable",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "org/yaml/snakeyaml/Yaml$SilentEmitter": {
+    "name": "org/yaml/snakeyaml/Yaml$SilentEmitter",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/Emitable"
+    ]
+  },
+  "org/yaml/snakeyaml/Yaml$YamlIterable": {
+    "name": "org/yaml/snakeyaml/Yaml$YamlIterable",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "org/yaml/snakeyaml/constructor/AbstractConstruct": {
+    "name": "org/yaml/snakeyaml/constructor/AbstractConstruct",
+    "interfaces": [
+      "org/yaml/snakeyaml/constructor/Construct"
+    ]
+  },
+  "org/yaml/snakeyaml/constructor/Constructor$ConstructMapping": {
+    "name": "org/yaml/snakeyaml/constructor/Constructor$ConstructMapping",
+    "interfaces": [
+      "org/yaml/snakeyaml/constructor/Construct"
+    ]
+  },
+  "org/yaml/snakeyaml/constructor/Constructor$ConstructSequence": {
+    "name": "org/yaml/snakeyaml/constructor/Constructor$ConstructSequence",
+    "interfaces": [
+      "org/yaml/snakeyaml/constructor/Construct"
+    ]
+  },
+  "org/yaml/snakeyaml/constructor/Constructor$ConstructYamlObject": {
+    "name": "org/yaml/snakeyaml/constructor/Constructor$ConstructYamlObject",
+    "interfaces": [
+      "org/yaml/snakeyaml/constructor/Construct"
+    ]
+  },
+  "org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlMap": {
+    "name": "org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlMap",
+    "interfaces": [
+      "org/yaml/snakeyaml/constructor/Construct"
+    ]
+  },
+  "org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlSeq": {
+    "name": "org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlSeq",
+    "interfaces": [
+      "org/yaml/snakeyaml/constructor/Construct"
+    ]
+  },
+  "org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlSet": {
+    "name": "org/yaml/snakeyaml/constructor/SafeConstructor$ConstructYamlSet",
+    "interfaces": [
+      "org/yaml/snakeyaml/constructor/Construct"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/Emitable"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectBlockMappingKey": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectBlockMappingKey",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectBlockMappingSimpleValue": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectBlockMappingSimpleValue",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectBlockMappingValue": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectBlockMappingValue",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectBlockSequenceItem": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectBlockSequenceItem",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectDocumentEnd": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectDocumentEnd",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectDocumentRoot": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectDocumentRoot",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectDocumentStart": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectDocumentStart",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectFirstBlockMappingKey": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectFirstBlockMappingKey",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectFirstBlockSequenceItem": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectFirstBlockSequenceItem",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectFirstDocumentStart": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectFirstDocumentStart",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectFirstFlowMappingKey": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectFirstFlowMappingKey",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectFirstFlowSequenceItem": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectFirstFlowSequenceItem",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectFlowMappingKey": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectFlowMappingKey",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectFlowMappingSimpleValue": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectFlowMappingSimpleValue",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectFlowMappingValue": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectFlowMappingValue",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectFlowSequenceItem": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectFlowSequenceItem",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectNothing": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectNothing",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/emitter/Emitter$ExpectStreamStart": {
+    "name": "org/yaml/snakeyaml/emitter/Emitter$ExpectStreamStart",
+    "interfaces": [
+      "org/yaml/snakeyaml/emitter/EmitterState"
+    ]
+  },
+  "org/yaml/snakeyaml/error/Mark": {
+    "name": "org/yaml/snakeyaml/error/Mark",
+    "interfaces": [
+      "java/io/Serializable"
+    ]
+  },
+  "org/yaml/snakeyaml/external/com/google/gdata/util/common/base/UnicodeEscaper": {
+    "name": "org/yaml/snakeyaml/external/com/google/gdata/util/common/base/UnicodeEscaper",
+    "interfaces": [
+      "org/yaml/snakeyaml/external/com/google/gdata/util/common/base/Escaper"
+    ]
+  },
+  "org/yaml/snakeyaml/external/com/google/gdata/util/common/base/UnicodeEscaper$1": {
+    "name": "org/yaml/snakeyaml/external/com/google/gdata/util/common/base/UnicodeEscaper$1",
+    "interfaces": [
+      "java/lang/Appendable"
+    ]
+  },
+  "org/yaml/snakeyaml/introspector/Property": {
+    "name": "org/yaml/snakeyaml/introspector/Property",
+    "interfaces": [
+      "java/lang/Comparable"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Parser"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockMappingFirstKey": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockMappingFirstKey",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockMappingKey": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockMappingKey",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockMappingValue": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockMappingValue",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockMappingValueComment": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockMappingValueComment",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockNode": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockNode",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockSequenceEntry": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockSequenceEntry",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockSequenceFirstEntry": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseBlockSequenceFirstEntry",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseDocumentContent": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseDocumentContent",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseDocumentEnd": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseDocumentEnd",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseDocumentStart": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseDocumentStart",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowEndComment": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowEndComment",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowMappingEmptyValue": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowMappingEmptyValue",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowMappingFirstKey": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowMappingFirstKey",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowMappingKey": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowMappingKey",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowMappingValue": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowMappingValue",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowSequenceEntry": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowSequenceEntry",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowSequenceEntryMappingEnd": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowSequenceEntryMappingEnd",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowSequenceEntryMappingKey": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowSequenceEntryMappingKey",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowSequenceEntryMappingValue": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowSequenceEntryMappingValue",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowSequenceFirstEntry": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseFlowSequenceFirstEntry",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseImplicitDocumentStart": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseImplicitDocumentStart",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseIndentlessSequenceEntry": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseIndentlessSequenceEntry",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/parser/ParserImpl$ParseStreamStart": {
+    "name": "org/yaml/snakeyaml/parser/ParserImpl$ParseStreamStart",
+    "interfaces": [
+      "org/yaml/snakeyaml/parser/Production"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/Representer$RepresentJavaBean": {
+    "name": "org/yaml/snakeyaml/representer/Representer$RepresentJavaBean",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$IteratorWrapper": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$IteratorWrapper",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentArray": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentArray",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentBoolean": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentBoolean",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentByteArray": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentByteArray",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentDate": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentDate",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentEnum": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentEnum",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentIterator": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentIterator",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentList": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentList",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentMap": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentMap",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentNull": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentNull",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentNumber": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentNumber",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentPrimitiveArray": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentPrimitiveArray",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentSet": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentSet",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentString": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentString",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentUuid": {
+    "name": "org/yaml/snakeyaml/representer/SafeRepresenter$RepresentUuid",
+    "interfaces": [
+      "org/yaml/snakeyaml/representer/Represent"
+    ]
+  },
+  "org/yaml/snakeyaml/scanner/ScannerImpl": {
+    "name": "org/yaml/snakeyaml/scanner/ScannerImpl",
+    "interfaces": [
+      "org/yaml/snakeyaml/scanner/Scanner"
+    ]
+  },
+  "org/yaml/snakeyaml/serializer/NumberAnchorGenerator": {
+    "name": "org/yaml/snakeyaml/serializer/NumberAnchorGenerator",
+    "interfaces": [
+      "org/yaml/snakeyaml/serializer/AnchorGenerator"
+    ]
+  },
+  "tech/mmmax/kami/api/feature/Feature": {
+    "name": "tech/mmmax/kami/api/feature/Feature",
+    "interfaces": [
+      "tech/mmmax/kami/api/config/ISavable"
+    ]
+  },
+  "tech/mmmax/kami/api/feature/hud/HudComponent": {
+    "name": "tech/mmmax/kami/api/feature/hud/HudComponent",
+    "interfaces": [
+      "tech/mmmax/kami/api/wrapper/IMinecraft"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "draw(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Text;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/api/feature/module/Module": {
+    "name": "tech/mmmax/kami/api/feature/module/Module",
+    "interfaces": [
+      "tech/mmmax/kami/api/binds/IBindable",
+      "tech/mmmax/kami/api/wrapper/IMinecraft"
+    ]
+  },
+  "tech/mmmax/kami/api/feature/script/Script": {
+    "name": "tech/mmmax/kami/api/feature/script/Script",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender2D(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Text;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender3D(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onMove(Ltech/mmmax/kami/api/event/MoveEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/api/gui/component/impl/FrameComponent": {
+    "name": "tech/mmmax/kami/api/gui/component/impl/FrameComponent",
+    "interfaces": [
+      "tech/mmmax/kami/api/gui/component/IComponent",
+      "tech/mmmax/kami/api/gui/helpers/IDraggable"
+    ]
+  },
+  "tech/mmmax/kami/api/gui/flow/Flow": {
+    "name": "tech/mmmax/kami/api/gui/flow/Flow",
+    "interfaces": [
+      "tech/mmmax/kami/api/gui/component/IComponent"
+    ]
+  },
+  "tech/mmmax/kami/api/gui/widget/impl/BindWidget": {
+    "name": "tech/mmmax/kami/api/gui/widget/impl/BindWidget",
+    "interfaces": [
+      "tech/mmmax/kami/api/gui/widget/IWidget",
+      "tech/mmmax/kami/api/gui/component/IComponent"
+    ]
+  },
+  "tech/mmmax/kami/api/gui/widget/impl/BooleanWidget": {
+    "name": "tech/mmmax/kami/api/gui/widget/impl/BooleanWidget",
+    "interfaces": [
+      "tech/mmmax/kami/api/gui/widget/IWidget",
+      "tech/mmmax/kami/api/gui/component/IComponent"
+    ]
+  },
+  "tech/mmmax/kami/api/gui/widget/impl/ColorWidget": {
+    "name": "tech/mmmax/kami/api/gui/widget/impl/ColorWidget",
+    "interfaces": [
+      "tech/mmmax/kami/api/gui/widget/IWidget",
+      "tech/mmmax/kami/api/gui/component/IComponent"
+    ]
+  },
+  "tech/mmmax/kami/api/gui/widget/impl/ComboBoxWidget": {
+    "name": "tech/mmmax/kami/api/gui/widget/impl/ComboBoxWidget",
+    "interfaces": [
+      "tech/mmmax/kami/api/gui/component/IComponent",
+      "tech/mmmax/kami/api/gui/widget/IWidget"
+    ]
+  },
+  "tech/mmmax/kami/api/gui/widget/impl/SliderWidget": {
+    "name": "tech/mmmax/kami/api/gui/widget/impl/SliderWidget",
+    "interfaces": [
+      "tech/mmmax/kami/api/gui/widget/IWidget",
+      "tech/mmmax/kami/api/gui/component/IComponent"
+    ]
+  },
+  "tech/mmmax/kami/api/gui/widget/impl/TextEntryWidget": {
+    "name": "tech/mmmax/kami/api/gui/widget/impl/TextEntryWidget",
+    "interfaces": [
+      "tech/mmmax/kami/api/gui/widget/IWidget",
+      "tech/mmmax/kami/api/gui/component/IComponent"
+    ]
+  },
+  "tech/mmmax/kami/api/management/BindManager": {
+    "name": "tech/mmmax/kami/api/management/BindManager",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onKey(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/api/management/CommandManager": {
+    "name": "tech/mmmax/kami/api/management/CommandManager",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onChat(Lnet/minecraftforge/client/event/ClientChatEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/api/management/FriendManager": {
+    "name": "tech/mmmax/kami/api/management/FriendManager",
+    "interfaces": [
+      "tech/mmmax/kami/api/config/ISavable"
+    ]
+  },
+  "tech/mmmax/kami/api/utils/NullUtils": {
+    "name": "tech/mmmax/kami/api/utils/NullUtils",
+    "interfaces": [
+      "tech/mmmax/kami/api/wrapper/IMinecraft"
+    ]
+  },
+  "tech/mmmax/kami/api/utils/chat/ChatUtils": {
+    "name": "tech/mmmax/kami/api/utils/chat/ChatUtils",
+    "interfaces": [
+      "tech/mmmax/kami/api/wrapper/IMinecraft"
+    ]
+  },
+  "tech/mmmax/kami/api/utils/color/RainbowUtil": {
+    "name": "tech/mmmax/kami/api/utils/color/RainbowUtil",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/api/utils/player/InventoryUtils": {
+    "name": "tech/mmmax/kami/api/utils/player/InventoryUtils",
+    "interfaces": [
+      "tech/mmmax/kami/api/wrapper/IMinecraft"
+    ]
+  },
+  "tech/mmmax/kami/api/utils/player/PlayerUtils": {
+    "name": "tech/mmmax/kami/api/utils/player/PlayerUtils",
+    "interfaces": [
+      "tech/mmmax/kami/api/wrapper/IMinecraft"
+    ]
+  },
+  "tech/mmmax/kami/api/utils/player/RotationUtil": {
+    "name": "tech/mmmax/kami/api/utils/player/RotationUtil",
+    "interfaces": [
+      "tech/mmmax/kami/api/wrapper/IMinecraft"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/api/utils/player/TargetUtils": {
+    "name": "tech/mmmax/kami/api/utils/player/TargetUtils",
+    "interfaces": [
+      "tech/mmmax/kami/api/wrapper/IMinecraft"
+    ]
+  },
+  "tech/mmmax/kami/api/utils/render/RenderUtil": {
+    "name": "tech/mmmax/kami/api/utils/render/RenderUtil",
+    "interfaces": [
+      "tech/mmmax/kami/api/wrapper/IMinecraft"
+    ]
+  },
+  "tech/mmmax/kami/api/utils/world/BlockUtils": {
+    "name": "tech/mmmax/kami/api/utils/world/BlockUtils",
+    "interfaces": [
+      "tech/mmmax/kami/api/wrapper/IMinecraft"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/api/utils/world/CrystalUtil": {
+    "name": "tech/mmmax/kami/api/utils/world/CrystalUtil",
+    "interfaces": [
+      "tech/mmmax/kami/api/wrapper/IMinecraft"
+    ]
+  },
+  "tech/mmmax/kami/api/utils/world/HoleUtils": {
+    "name": "tech/mmmax/kami/api/utils/world/HoleUtils",
+    "interfaces": [
+      "tech/mmmax/kami/api/wrapper/IMinecraft"
+    ]
+  },
+  "tech/mmmax/kami/impl/KamiMod": {
+    "name": "tech/mmmax/kami/impl/KamiMod",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$Instance;",
+        "target": "INSTANCE"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/hud/Welcomer": {
+    "name": "tech/mmmax/kami/impl/features/hud/Welcomer",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Text;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/client/ClickGuiModule": {
+    "name": "tech/mmmax/kami/impl/features/modules/client/ClickGuiModule",
+    "interfaces": [
+      "tech/mmmax/kami/api/gui/theme/IColorScheme",
+      "tech/mmmax/kami/api/gui/theme/IMetrics"
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/client/Manager": {
+    "name": "tech/mmmax/kami/impl/features/modules/client/Manager",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/client/Safety": {
+    "name": "tech/mmmax/kami/impl/features/modules/client/Safety",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/client/SecondGuiModule": {
+    "name": "tech/mmmax/kami/impl/features/modules/client/SecondGuiModule",
+    "interfaces": [
+      "tech/mmmax/kami/api/gui/theme/IColorScheme",
+      "tech/mmmax/kami/api/gui/theme/IMetrics",
+      "tech/mmmax/kami/api/gui/render/IRenderer"
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/client/SixGuiModule": {
+    "name": "tech/mmmax/kami/impl/features/modules/client/SixGuiModule",
+    "interfaces": [
+      "tech/mmmax/kami/api/gui/theme/IColorScheme",
+      "tech/mmmax/kami/api/gui/theme/IMetrics",
+      "tech/mmmax/kami/api/gui/render/IRenderer"
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/combat/Army": {
+    "name": "tech/mmmax/kami/impl/features/modules/combat/Army",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/combat/AutoTrap": {
+    "name": "tech/mmmax/kami/impl/features/modules/combat/AutoTrap",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/combat/Burrow": {
+    "name": "tech/mmmax/kami/impl/features/modules/combat/Burrow",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/combat/CrystalAura": {
+    "name": "tech/mmmax/kami/impl/features/modules/combat/CrystalAura",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/combat/HoleFill": {
+    "name": "tech/mmmax/kami/impl/features/modules/combat/HoleFill",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/combat/Offhand": {
+    "name": "tech/mmmax/kami/impl/features/modules/combat/Offhand",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/combat/OldSurround": {
+    "name": "tech/mmmax/kami/impl/features/modules/combat/OldSurround",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPostPacket(Ltech/mmmax/kami/api/event/PostPacketEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onJump(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/combat/Platformer": {
+    "name": "tech/mmmax/kami/impl/features/modules/combat/Platformer",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/combat/PvPBot": {
+    "name": "tech/mmmax/kami/impl/features/modules/combat/PvPBot",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/combat/PvPBot$HoleCallable": {
+    "name": "tech/mmmax/kami/impl/features/modules/combat/PvPBot$HoleCallable",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/combat/Surround": {
+    "name": "tech/mmmax/kami/impl/features/modules/combat/Surround",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/misc/ChatSuffix": {
+    "name": "tech/mmmax/kami/impl/features/modules/misc/ChatSuffix",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/misc/ChunkCoordExploit": {
+    "name": "tech/mmmax/kami/impl/features/modules/misc/ChunkCoordExploit",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onClientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/misc/Disabler": {
+    "name": "tech/mmmax/kami/impl/features/modules/misc/Disabler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/misc/Dupe5B": {
+    "name": "tech/mmmax/kami/impl/features/modules/misc/Dupe5B",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/misc/FakePlayer": {
+    "name": "tech/mmmax/kami/impl/features/modules/misc/FakePlayer",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/misc/HotbarRefill": {
+    "name": "tech/mmmax/kami/impl/features/modules/misc/HotbarRefill",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/misc/MultiTask": {
+    "name": "tech/mmmax/kami/impl/features/modules/misc/MultiTask",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/misc/NettyTest": {
+    "name": "tech/mmmax/kami/impl/features/modules/misc/NettyTest",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/misc/SpeedMine": {
+    "name": "tech/mmmax/kami/impl/features/modules/misc/SpeedMine",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onBlockClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$LeftClickBlock;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/player/ChorusManipulation": {
+    "name": "tech/mmmax/kami/impl/features/modules/player/ChorusManipulation",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/player/JumpSpeed": {
+    "name": "tech/mmmax/kami/impl/features/modules/player/JumpSpeed",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "moveEvent(Ltech/mmmax/kami/api/event/MoveEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/player/MiddleClick": {
+    "name": "tech/mmmax/kami/impl/features/modules/player/MiddleClick",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/player/NoInteract": {
+    "name": "tech/mmmax/kami/impl/features/modules/player/NoInteract",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPickBlock(Ltech/mmmax/kami/api/event/PickBlockEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onBlockInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/player/PacketFly": {
+    "name": "tech/mmmax/kami/impl/features/modules/player/PacketFly",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/player/PhaseWalk": {
+    "name": "tech/mmmax/kami/impl/features/modules/player/PhaseWalk",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onMove(Ltech/mmmax/kami/api/event/MoveEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/player/ReverseStep": {
+    "name": "tech/mmmax/kami/impl/features/modules/player/ReverseStep",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "moveEvent(Ltech/mmmax/kami/api/event/MoveEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/player/Sprint": {
+    "name": "tech/mmmax/kami/impl/features/modules/player/Sprint",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/player/Step": {
+    "name": "tech/mmmax/kami/impl/features/modules/player/Step",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/player/Strafe": {
+    "name": "tech/mmmax/kami/impl/features/modules/player/Strafe",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onMove(Ltech/mmmax/kami/api/event/MoveEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onJump(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingJumpEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/player/TargetStrafe": {
+    "name": "tech/mmmax/kami/impl/features/modules/player/TargetStrafe",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/player/Velocity": {
+    "name": "tech/mmmax/kami/impl/features/modules/player/Velocity",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onInputUpdate(Lnet/minecraftforge/client/event/InputUpdateEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPushOutOfBlocks(Ltech/mmmax/kami/api/event/PushOutOfBlocksEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/player/YPort": {
+    "name": "tech/mmmax/kami/impl/features/modules/player/YPort",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onMove(Ltech/mmmax/kami/api/event/MoveEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/render/Chams": {
+    "name": "tech/mmmax/kami/impl/features/modules/render/Chams",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "renderEntity(Ltech/mmmax/kami/api/event/RenderEntityEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/render/ChorusViewer": {
+    "name": "tech/mmmax/kami/impl/features/modules/render/ChorusViewer",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderWorld(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/render/CrossHair": {
+    "name": "tech/mmmax/kami/impl/features/modules/render/CrossHair",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender(Ltech/mmmax/kami/api/event/RenderCrosshairEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/render/CustomSky": {
+    "name": "tech/mmmax/kami/impl/features/modules/render/CustomSky",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderSky(Ltech/mmmax/kami/api/event/RenderSkyEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/render/HoleEsp": {
+    "name": "tech/mmmax/kami/impl/features/modules/render/HoleEsp",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender3d(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/render/Nametags": {
+    "name": "tech/mmmax/kami/impl/features/modules/render/Nametags",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderWorld(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/render/PopESP": {
+    "name": "tech/mmmax/kami/impl/features/modules/render/PopESP",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderWorld(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/render/RubberESP": {
+    "name": "tech/mmmax/kami/impl/features/modules/render/RubberESP",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPacket(Ltech/mmmax/kami/api/event/PacketEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderWorld(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/render/Trails": {
+    "name": "tech/mmmax/kami/impl/features/modules/render/Trails",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender3D(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/features/modules/render/ViewModel": {
+    "name": "tech/mmmax/kami/impl/features/modules/render/ViewModel",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onUpdate(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onItemFOV(Lnet/minecraftforge/client/event/EntityViewRenderEvent$FOVModifier;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "setPerspective(Ltech/mmmax/kami/api/event/PerspectiveEvent;)V"
+      }
+    ]
+  },
+  "tech/mmmax/kami/impl/gui/renderer/Renderer": {
+    "name": "tech/mmmax/kami/impl/gui/renderer/Renderer",
+    "interfaces": [
+      "tech/mmmax/kami/api/gui/render/IRenderer",
+      "tech/mmmax/kami/api/wrapper/IMinecraft"
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinEntity": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinEntity",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinEntity",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/entity/Entity;"
+          ]
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 168,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "pushOutOfBlocks(DDDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "168"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "pushOutOfBlocks"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinEntityPlayer": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinEntityPlayer",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinEntityPlayer",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/entity/player/EntityPlayer;"
+          ]
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 165,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "isEntityInsideOpaqueBlockHook(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "165"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "isEntityInsideOpaqueBlock"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinEntityPlayerSP": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinEntityPlayerSP",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinEntityPlayerSP",
+        "values": {
+          "priority": {
+            "type": "INT",
+            "value": "2147483637"
+          },
+          "value": {
+            "type": "CLASS",
+            "values": [
+              "Lnet/minecraft/client/entity/EntityPlayerSP;"
+            ]
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "field_71155_g"
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 169,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "move(Lnet/minecraft/entity/MoverType;DDDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "169"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "move"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 170,
+        "value": {
+          "value": "TAIL"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "postMove(Lnet/minecraft/entity/MoverType;DDDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "170"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "move"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinEntityRenderer": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinEntityRenderer",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinEntityRenderer",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/renderer/EntityRenderer;"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "field_78531_r"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lorg/spongepowered/asm/mixin/Final;",
+        "target": "field_78531_r"
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 162,
+        "values": {
+          "target": {
+            "value": "Lorg/lwjgl/util/glu/Project;gluPerspective(FFFF)V"
+          },
+          "value": {
+            "value": "INVOKE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Redirect;",
+        "target": "onSetupCameraTransform(FFFF)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "162"
+          },
+          "method": {
+            "values": [
+              "setupCameraTransform"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 163,
+        "values": {
+          "target": {
+            "value": "Lorg/lwjgl/util/glu/Project;gluPerspective(FFFF)V"
+          },
+          "value": {
+            "value": "INVOKE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Redirect;",
+        "target": "onRenderWorldPass(FFFF)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "163"
+          },
+          "method": {
+            "values": [
+              "renderWorldPass"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 164,
+        "values": {
+          "target": {
+            "value": "Lorg/lwjgl/util/glu/Project;gluPerspective(FFFF)V"
+          },
+          "value": {
+            "value": "INVOKE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Redirect;",
+        "target": "onRenderCloudsCheck(FFFF)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "164"
+          },
+          "method": {
+            "values": [
+              "renderCloudsCheck"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinForgeHooks": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinForgeHooks",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinForgeHooks",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraftforge/common/ForgeHooks;"
+          ]
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 172,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "onPickBlock(Lnet/minecraft/util/math/RayTraceResult;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "172"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "onPickBlock"
+            ]
+          },
+          "remap": {
+            "type": "BOOL",
+            "value": "false"
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinGuiIngame": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinGuiIngame",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinGuiIngame",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/gui/GuiIngame;"
+          ]
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 175,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "renderAttackIndicatorHook(FLnet/minecraft/client/gui/ScaledResolution;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "175"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "renderAttackIndicator"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinGuiMainMenu": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinGuiMainMenu",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinGuiMainMenu",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/gui/GuiMainMenu;"
+          ]
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinItemChorusFruit": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinItemChorusFruit",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinItemChorusFruit",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/item/ItemChorusFruit;"
+          ]
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 173,
+        "values": {
+          "target": {
+            "value": "Lnet/minecraft/entity/EntityLivingBase;attemptTeleport(DDD)Z"
+          },
+          "value": {
+            "value": "INVOKE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Redirect;",
+        "target": "attemptTeleportHook(Lnet/minecraft/entity/EntityLivingBase;DDD)Z",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "173"
+          },
+          "method": {
+            "values": [
+              "onItemUseFinish"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinItemRenderer": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinItemRenderer",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinItemRenderer",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/renderer/ItemRenderer;"
+          ]
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 160,
+        "values": {
+          "target": {
+            "value": "Lnet/minecraft/client/renderer/ItemRenderer;transformSideFirstPerson(Lnet/minecraft/util/EnumHandSide;F)V"
+          },
+          "value": {
+            "value": "INVOKE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Redirect;",
+        "target": "transformRedirect(Lnet/minecraft/client/renderer/ItemRenderer;Lnet/minecraft/util/EnumHandSide;F)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "160"
+          },
+          "method": {
+            "values": [
+              "renderItemInFirstPerson(Lnet/minecraft/client/entity/AbstractClientPlayer;FFLnet/minecraft/util/EnumHand;FLnet/minecraft/item/ItemStack;F)V"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinMinecraft": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinMinecraft",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinMinecraft",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/Minecraft;"
+          ]
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 166,
+        "values": {
+          "target": {
+            "value": "Lnet/minecraft/client/entity/EntityPlayerSP;isHandActive()Z"
+          },
+          "value": {
+            "value": "INVOKE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Redirect;",
+        "target": "isHandActiveWrapper(Lnet/minecraft/client/entity/EntityPlayerSP;)Z",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "166"
+          },
+          "method": {
+            "values": [
+              "sendClickBlockToController"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 167,
+        "values": {
+          "ordinal": {
+            "type": "INT",
+            "value": "0"
+          },
+          "target": {
+            "value": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;getIsHittingBlock()Z"
+          },
+          "value": {
+            "value": "INVOKE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Redirect;",
+        "target": "isHittingBlockHook(Lnet/minecraft/client/multiplayer/PlayerControllerMP;)Z",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "167"
+          },
+          "method": {
+            "values": [
+              "rightClickMouse"
+            ]
+          },
+          "require": {
+            "type": "INT",
+            "value": "1"
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinModelPlayer": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinModelPlayer",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinModelPlayer",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/model/ModelPlayer;"
+          ]
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinNetworkManager": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinNetworkManager",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinNetworkManager",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/network/NetworkManager;"
+          ]
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 155,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "onSendPacket(Lnet/minecraft/network/Packet;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "155"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "sendPacket(Lnet/minecraft/network/Packet;)V"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 156,
+        "value": {
+          "value": "TAIL"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "postSendPacket(Lnet/minecraft/network/Packet;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "156"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "sendPacket(Lnet/minecraft/network/Packet;)V"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 157,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "onChannelRead(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "157"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "channelRead0"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 158,
+        "value": {
+          "value": "TAIL"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "postChannelRead(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "158"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "channelRead0"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 159,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "exception(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Throwable;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "159"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "exceptionCaught"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinPlayerControllerMP": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinPlayerControllerMP",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinPlayerControllerMP",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/multiplayer/PlayerControllerMP;"
+          ]
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 174,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "onStopItem(Lnet/minecraft/entity/player/EntityPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "174"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "onStoppedUsingItem"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinRenderCrystal": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinRenderCrystal",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinRenderCrystal",
+        "values": {
+          "priority": {
+            "type": "INT",
+            "value": "2147483646"
+          },
+          "value": {
+            "type": "CLASS",
+            "values": [
+              "Lnet/minecraft/client/renderer/entity/RenderEnderCrystal;"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 176,
+        "values": {
+          "target": {
+            "value": "Lnet/minecraft/client/model/ModelBase;render(Lnet/minecraft/entity/Entity;FFFFFF)V"
+          },
+          "value": {
+            "value": "INVOKE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Redirect;",
+        "target": "renderModelBaseHook(Lnet/minecraft/client/model/ModelBase;Lnet/minecraft/entity/Entity;FFFFFF)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "176"
+          },
+          "method": {
+            "values": [
+              "doRender"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinRenderGlobal": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinRenderGlobal",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinRenderGlobal",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/renderer/RenderGlobal;"
+          ]
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinRenderItem": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinRenderItem",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinRenderItem",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/renderer/RenderItem;"
+          ]
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinRenderLivingBase": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinRenderLivingBase",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinRenderLivingBase",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/renderer/entity/RenderLivingBase;"
+          ]
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 161,
+        "values": {
+          "target": {
+            "value": "Lnet/minecraft/client/model/ModelBase;render(Lnet/minecraft/entity/Entity;FFFFFF)V"
+          },
+          "value": {
+            "value": "INVOKE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Redirect;",
+        "target": "renderModel(Lnet/minecraft/client/model/ModelBase;Lnet/minecraft/entity/Entity;FFFFFF)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "161"
+          },
+          "method": {
+            "values": [
+              "renderModel"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinRenderPlayer": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinRenderPlayer",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinRenderPlayer",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/renderer/entity/RenderPlayer;"
+          ]
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 171,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "renderNametag(Lnet/minecraft/client/entity/AbstractClientPlayer;DDDLjava/lang/String;DLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "171"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "renderEntityName"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/MixinWorld": {
+    "name": "tech/mmmax/kami/mixin/mixins/MixinWorld",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/MixinWorld",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/world/World;"
+          ]
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/access/ICPacketChat": {
+    "name": "tech/mmmax/kami/mixin/mixins/access/ICPacketChat",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/access/ICPacketChat",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/network/play/client/CPacketChatMessage;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setMessage(Ljava/lang/String;)V",
+        "value": {
+          "value": "message"
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/access/ICPacketKeepAlive": {
+    "name": "tech/mmmax/kami/mixin/mixins/access/ICPacketKeepAlive",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/access/ICPacketKeepAlive",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/network/play/client/CPacketKeepAlive;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setKey(J)V",
+        "value": {
+          "value": "key"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "getKey()J",
+        "value": {
+          "value": "key"
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/access/ICPacketPlayer": {
+    "name": "tech/mmmax/kami/mixin/mixins/access/ICPacketPlayer",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/access/ICPacketPlayer",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/network/play/client/CPacketPlayer;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setYaw(F)V",
+        "value": {
+          "value": "yaw"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setPitch(F)V",
+        "value": {
+          "value": "pitch"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setX(D)V",
+        "value": {
+          "value": "x"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setY(D)V",
+        "value": {
+          "value": "y"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setZ(D)V",
+        "value": {
+          "value": "z"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setOnGround(Z)V",
+        "value": {
+          "value": "onGround"
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/access/ICPacketUseEntity": {
+    "name": "tech/mmmax/kami/mixin/mixins/access/ICPacketUseEntity",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/access/ICPacketUseEntity",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/network/play/client/CPacketUseEntity;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setEntityId(I)V",
+        "value": {
+          "value": "entityId"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setAction(Lnet/minecraft/network/play/client/CPacketUseEntity$Action;)V",
+        "value": {
+          "value": "action"
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/access/IEntity": {
+    "name": "tech/mmmax/kami/mixin/mixins/access/IEntity",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/access/IEntity",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/entity/Entity;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "isInPortal()Z",
+        "value": {
+          "value": "inPortal"
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/access/IMinecraft": {
+    "name": "tech/mmmax/kami/mixin/mixins/access/IMinecraft",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/access/IMinecraft",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/Minecraft;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "getTimer()Lnet/minecraft/util/Timer;",
+        "value": {
+          "value": "timer"
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/access/INetHandlerPlayClient": {
+    "name": "tech/mmmax/kami/mixin/mixins/access/INetHandlerPlayClient",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/access/INetHandlerPlayClient",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/network/NetHandlerPlayClient;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setNetManager(Lnet/minecraft/network/NetworkManager;)V",
+        "value": {
+          "value": "netManager"
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/access/IRenderEnderCrystal": {
+    "name": "tech/mmmax/kami/mixin/mixins/access/IRenderEnderCrystal",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/access/IRenderEnderCrystal",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/renderer/entity/RenderEnderCrystal;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "getModelEnderCrystalNoBase()Lnet/minecraft/client/model/ModelBase;",
+        "value": {
+          "value": "modelEnderCrystalNoBase"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setModelEnderCrystalNoBase(Lnet/minecraft/client/model/ModelBase;)V",
+        "value": {
+          "value": "modelEnderCrystalNoBase"
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/access/ISPacketEntityVelocity": {
+    "name": "tech/mmmax/kami/mixin/mixins/access/ISPacketEntityVelocity",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/access/ISPacketEntityVelocity",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/network/play/server/SPacketEntityVelocity;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setMotionX(I)V",
+        "value": {
+          "value": "motionX"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setMotionY(I)V",
+        "value": {
+          "value": "motionY"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setMotionZ(I)V",
+        "value": {
+          "value": "motionZ"
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/access/ISPacketExplosion": {
+    "name": "tech/mmmax/kami/mixin/mixins/access/ISPacketExplosion",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/access/ISPacketExplosion",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/network/play/server/SPacketExplosion;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setMotionX(F)V",
+        "value": {
+          "value": "motionX"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setMotionY(F)V",
+        "value": {
+          "value": "motionY"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setMotionZ(F)V",
+        "value": {
+          "value": "motionZ"
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/access/ISPacketPlayerPosLook": {
+    "name": "tech/mmmax/kami/mixin/mixins/access/ISPacketPlayerPosLook",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/access/ISPacketPlayerPosLook",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/network/play/server/SPacketPlayerPosLook;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setYaw(F)V",
+        "value": {
+          "value": "yaw"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setPitch(F)V",
+        "value": {
+          "value": "pitch"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setX(D)V",
+        "value": {
+          "value": "x"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setY(D)V",
+        "value": {
+          "value": "y"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setZ(D)V",
+        "value": {
+          "value": "z"
+        }
+      }
+    ]
+  },
+  "tech/mmmax/kami/mixin/mixins/access/ITimer": {
+    "name": "tech/mmmax/kami/mixin/mixins/access/ITimer",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "tech/mmmax/kami/mixin/mixins/access/ITimer",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/util/Timer;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "getTickLength()F",
+        "value": {
+          "value": "tickLength"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setTickLength(F)V",
+        "value": {
+          "value": "tickLength"
+        }
+      }
+    ]
+  },
+  "tech/mmmax/loader/LoaderMain": {
+    "name": "tech/mmmax/loader/LoaderMain",
+    "interfaces": [
+      "net/minecraftforge/fml/relauncher/IFMLLoadingPlugin"
+    ]
+  },
+  "tech/mmmax/loader/ModLoader": {
+    "name": "tech/mmmax/loader/ModLoader",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "tech/mmmax/loader/ModLoader",
+        "values": {
+          "modid": {
+            "value": "kami5l"
+          },
+          "name": {
+            "value": "Kami5L"
+          },
+          "version": {
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "onPreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "onInit(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "onPostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V"
+      }
+    ]
+  }
+}
