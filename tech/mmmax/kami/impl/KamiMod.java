@@ -30,6 +30,7 @@ public class KamiMod {
     @EventHandler
     public void init(FMLInitializationEvent event) {
         System.out.println("Initialzied");
+        Sysout.out.println("penis - hausemasterissue");
         Register.INSTANCE = new Register();
         Register.INSTANCE.registerAll();
         KamiMod.ShutdownHook.setup();
